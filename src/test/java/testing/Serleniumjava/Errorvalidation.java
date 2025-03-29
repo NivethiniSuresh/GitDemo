@@ -28,5 +28,6 @@ public class Errorvalidation extends Baseclass {
 		lp.actionlogin("nivethiniba@gmail.com", "Nivethini1999@");
 //		 Incorrect email or password. 
 		Assert.assertEquals("Iorrect email or password.", lp.validationerror());
+		System.out.println("Sample code");
 	}
 }

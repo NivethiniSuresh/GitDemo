@@ -50,6 +50,7 @@ public class Standaloneref {
 		String mess = d2.findElement(By.className("hero-primary")).getText();
 		Assert.assertTrue(mess.equalsIgnoreCase("Thankyou for the order."));
 		d2.close();
+		System.out.println("Sample code");
 	}
 
 }

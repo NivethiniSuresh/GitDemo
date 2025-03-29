@@ -40,7 +40,6 @@ public class Standalone extends Baseclass {
 		Lastthankmessage last = new Lastthankmessage(d2);
 		last.message(thankyoy);
 		System.out.println("Sample code");
-		System.out.println("Sample code2");
 	}
 	@Test(dependsOnMethods = {"mainclass"})
 	public void orderpage(HashMap<String,String> inputdata)
